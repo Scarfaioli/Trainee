@@ -1,11 +1,11 @@
 var s = "Hello World";
-let peixe = 0;
+let resultadoFinal = 0;
 const teste = () => {
   const string = [1, 2, 3, 4, 5, 6, 7, 8, 9];
   for (let numero of string) {
-    peixe += numero;
+    resultadoFinal += numero;
   }
-  return peixe;
+  return resultadoFinal;
 }
 
 console.log('a');
