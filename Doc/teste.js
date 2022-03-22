@@ -1,4 +1,3 @@
-
 var s = "Hello World";
 let peixe = 0;
 const teste = () => {
@@ -9,7 +8,7 @@ const teste = () => {
   return peixe;
 }
 
-
+console.log('a');
 console.log(teste());
 console.log(s);
 
