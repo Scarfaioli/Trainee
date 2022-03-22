@@ -11,3 +11,5 @@ const teste = () => {
 console.log('a');
 console.log(teste());
 console.log(s);
+
+console.log("Hello Wolrd");
