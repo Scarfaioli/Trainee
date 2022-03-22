@@ -11,4 +11,3 @@ const teste = () => {
 console.log('a');
 console.log(teste());
 console.log(s);
-
