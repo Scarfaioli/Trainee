@@ -11,3 +11,9 @@ app.get("/", (request, response) => {
     App: "NodeJs App"
   });
 });
+
+function sum(a, b){
+  return a + b;
+}
+
+module.exports = {sum};
