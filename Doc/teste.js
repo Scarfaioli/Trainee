@@ -1,25 +1,13 @@
-var s = "Hello World";
-let resultadoFinal = 0;
-let resultadoMultiplicado = 0;
-const string = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const express = require("express");
+const app = express();
 
+app.use(express.json());
 
-const teste = () => {
-  for (let numero of string) {
-    resultadoFinal += numero;
-  }
-  return resultadoFinal;
-}
+app.listen(3333);
 
-const multiplicar = () => {
-  for (let numeros of string) {
-    resultadoMultiplicado *= numeros;
-  }
-}
-
-
-console.log(teste());
-
-console.log("-------------------------------------");
-
-console.log(multiplicar());
+app.get("/", (request, response) => {
+  return response.json({
+    helloWord: "Hello Word",
+    App: "NodeJs App"
+  });
+});
