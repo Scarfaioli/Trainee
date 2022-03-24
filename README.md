@@ -5,5 +5,5 @@ irá conter um arquivo HTML com um lorem ipsum
 ---
 ### *PULL Dançarina*  
 ![PULL](https://c.tenor.com/uHlkZ5Z-lq0AAAAi/minecraft-blue.gif "PULL dançarina")  
-Autor: Felipe Lacerda <https://github.com/FelipeLacerda500>
+Autor: Felipe Lacerda [FelipeLacerda500](https://github.com/FelipeLacerda500)  
 ---
