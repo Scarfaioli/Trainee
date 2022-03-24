@@ -11,3 +11,5 @@ app.get("/", (request, response) => {
     App: "NodeJs App"
   });
 });
+
+module.exports = {sum};
