@@ -1,6 +1,6 @@
 {
   "name": "trainee",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Repositorio de teste para treinamento de sistemas web da commit\r irá conter um arquivo HTML com um lorem ipsum",
   "main": "teste.js",
   "scripts": {
