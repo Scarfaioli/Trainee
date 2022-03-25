@@ -1,0 +1,64 @@
+git init 
+inicia o repositorio do git na pasta
+
+git status
+verifica o que tem na pasta
+
+git add .
+adiciona os novos arquivos no git
+
+git commit -m "msg"
+é bom fazer commit antes de enviar
+
+git config --global user.email "<email>"
+informar seu email no git
+
+git config --global user.name "<name>"
+iinformar seu nome no git
+
+git remote add origin < web url>
+adicionar o endereço da página
+
+git push --set-upstream origin master 
+enviar o arquivo informando qual branch
+
+git push 
+enviar o arquivo
+
+git reflog
+informa o historico de alterações
+
+git reset --hard <endereço do historico>
+altera o arquivo de acordo com o que desejar no historico
+
+git branch
+informa todas as branchs 
+
+git branch <nome>
+cria uma nova branch
+
+git checkout 'nome da branch'
+muda para outra branch existente
+
+git merge <nome da branch>
+envia as alterações dessa branch para a branch atual
+
+git pull 
+pega os dados atuais do repositorio no site
+
+Ações do uso de outras branchs para trabalhar com equipe:
+1. git pull da branch principal
+2. gerar uma nova branch a partir da branch principal
+3. Trabalhar e adicionar novas funcionalidades na nova branch que criou
+4. Finalizar o trabalho na branch temporária 
+5. Git checkout na branch principal
+6. Git pull
+7. Mergiar(unir) o código do branch temporário com a branch principal(depois de testar)
+8. Git push da branch principal  
+
+git checkout -b <nome da nova branch> <nome da branch que quer usar de base>
+cria uma nova branch com base na branch desejado
+
+touch .gitignore
+cria um arquivo na pasta chamado .gitignore, ao abri-lo por notepad escrever o nome de qualquer arquivo que tu quer q não sejam adicionados, por exemplo: segredos/ e salvar
+após isso adicionar apenas o arquivo .gitignore
